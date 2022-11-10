@@ -12,5 +12,15 @@
 		},
 		"ghcr.io/devcontainers/features/sshd:1": {},
 		"ghcr.io/guiyomh/features/vim:0": {}
+	},
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"vscjava.vscode-maven",
+				"redhat.java",
+				"vscjava.vscode-java-pack",
+				"vscjava.vscode-java-debug"
+			]
+		}
 	}
 }
